@@ -14,12 +14,12 @@
 
 ## 安装
 
-1. 从 [Releases](https://github.com/zender555/SwitchTVBox/releases/latest) 下载并解压安装包。
-2. 将 `switch` 文件夹复制到 SD 卡根目录。
+1. 从 [Releases](https://github.com/zender555/SwitchTVBox/releases/latest) 下载 NRO。
+2. 将 NRO 放入 SD 卡 `switch/SwitchTVBox/` 目录，并命名为 `SwitchTVBox.nro`。
 3. 通过支持完整内存模式的 Homebrew 启动方式打开 SwitchTVBox。
 4. 在「网盘 / 工具」中扫码登录。
 
-更新时只替换 `switch/SwitchTVBox/SwitchTVBox.nro`，保留已有配置与账号文件。当前提供 NRO 安装包，不含 NSP 桌面安装器。
+Release 仅提供 NRO 文件，不包含账号文件、模板或默认配置。更新时替换 NRO，保留本机已有的账号与配置。当前没有 NSP 桌面安装器。
 
 ## 操作
 
@@ -35,7 +35,7 @@
 
 ## 账号与隐私
 
-安装包不预置个人密码、网盘 Token 或登录 Cookie。扫码登录后，凭据保存在你 SD 卡上的 `accounts.json`；请勿将它上传或分享。
+发布包不包含账号文件、账号模板或默认配置。扫码登录后，软件会在你的 SD 卡上生成用于保存登录凭据的本机账号文件；请勿上传或分享该文件。
 
 本仓库用于分发安装包和使用说明。
 

@@ -1,7 +1,7 @@
 <div align="center">
   <img src="icon.jpg" alt="SwitchTVBox 图标" width="128" />
   <h1>SwitchTVBox</h1>
-  <p>在 Nintendo Switch 上浏览片库，连接网盘，轻松播放。</p>
+  <p>在 Nintendo Switch 上浏览片库，支持网盘与免网盘播放。</p>
   <p><a href="https://github.com/zender555/SwitchTVBox/releases/latest"><strong>下载最新安装包</strong></a> · <a href="#安装">安装方法</a></p>
 </div>
 
@@ -16,7 +16,8 @@
 
 - 海报片库与分类浏览，支持搜索、筛选和翻页。
 - 百度、夸克网盘扫码登录，浏览自己的网盘及分享内容。
-- 视频播放、选集与切集。
+- 独立「免网盘」入口，支持分类、封面与选集播放，无需网盘登录。
+- 视频播放、选集与切集，播放失败时支持自动切换备用线路。
 - 中文界面，支持手柄操作。
 
 ## 安装
@@ -24,7 +25,7 @@
 1. 从 [Releases](https://github.com/zender555/SwitchTVBox/releases/latest) 下载 NRO。
 2. 将 NRO 放入 SD 卡 `switch/SwitchTVBox/` 目录，并命名为 `SwitchTVBox.nro`。
 3. 通过支持完整内存模式的 Homebrew 启动方式打开 SwitchTVBox。
-4. 在「网盘 / 工具」中扫码登录。
+4. 使用网盘功能时扫码登录；「免网盘」入口无需网盘登录。
 
 Release 仅提供 NRO 文件，不包含账号文件、模板或默认配置。更新时替换 NRO，保留本机已有的账号与配置。当前没有 NSP 桌面安装器。
 
@@ -36,9 +37,9 @@ Release 仅提供 NRO 文件，不包含账号文件、模板或默认配置。�
 | X | 搜索 |
 | 播放中按右摇杆 | 打开选集 |
 
-## 0.4.10 更新
+## 0.4.28 更新
 
-简化关于软件页面，移除旧项目地址、测试及配置入口，隐藏本地标签。
+新增免网盘播放线路，支持播放失败后自动切换备用线路；优化拖动进度后的网速提示与侧边栏排版。
 
 ## 账号与隐私
 
@@ -55,4 +56,3 @@ Release 仅提供 NRO 文件，不包含账号文件、模板或默认配置。�
 如权利人认为本项目涉及侵权，请通过 [GitHub Issues](https://github.com/zender555/SwitchTVBox/issues/new) 提交具体内容或链接、权利证明及联系渠道；请勿在公开 Issue 中上传身份证件、密码或其他敏感信息。收到有效通知后，我们将及时采取移除相关内容、断开相关入口、停止分发或下架受影响版本等适当措施。
 
 本声明不排除法律规定不得免除或限制的责任。
-

@@ -7,7 +7,10 @@
 
 ## 交流反馈
 
-**switch 爱好者交流群：1127800475**
+<p align="center">
+  <img src="qq-group.svg" alt="switch 爱好者交流群：1127800475" width="760" />
+</p>
+<p align="center">QQ群号：<strong>1127800475</strong>（可复制）</p>
 
 ## 功能
 
